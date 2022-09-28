@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/destyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <!--スライダー-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+    </script>
+    <!--------->
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="webauth.html">
+
+    <title>EandM</title>
+</head>
+
+<body>
+
+    <!-- 本文 -->
+    <header class="header">
+        <!-- ヘッダーロゴ画像 -->
+        <div class="header-left">
+            <img src="images/EandM.jpg" class="header-left" alt="テントの画像">
+        </div>
+
+
+        <!-- SPハンバーガーメニュー部分 -->
+        <div class="nav-sp">
+
+            <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+            <input id="drawer_input" class="drawer_hidden" type="checkbox" value="checkbox">
+
+            <!-- ハンバーガーアイコン -->
+            <label for="drawer_input" class="drawer_open"><span></span></label>
+
+            <!-- メニュー -->
+            <nav class="nav_content">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#">reservation</a></li>
+                    <li class="nav_item"><a href="#">Room</a></li>
+                    <li class="nav_item"><a href="#">BBQmenu</a></li>
+                    <li class="nav_item"><a href="#">Access</a></li>
+                    <li class="nav_item"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- PCメニュー部分 -->
+        <div class="nav-pc">
+            <ul>
+                <li><a href="#">reservation</a></li>
+                <li><a href="#">Room</a></li>
+                <li><a href="#">BBQmenu</a></li>
+                <li><a href="#">Access</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <div class="main">
+        <div class="container">
+            <h1>都心からわずか１時間で味わえるラグジュアリー空間</h1>
+            <!-- SPスライダー部分 -->
+            <div class="main-sp">
+                <div class="slider">
+                    <img src="images/spvermain.jpg" width="300" height="250" alt="テント画像">
+                    <img src="images/spvermain2.jpg" width="300" height="250" alt="肉のBBQ画像">
+                    <img src="images/spvermain3.jpg" width="300" height="250" alt="マシュマロ画像">
+                </div>
+            </div>
+            <!-- PCスライダー部分 -->
+            <div class="main-pc">
+                <div class="slider">
+                    <img src="images/pcmain.jpg" width="1366" height="600" alt="テント画像">
+                    <img src="images/pcmain2.jpg" width="1366" height="600" alt="肉のBBQ画像">
+                    <img src="images/pcmain3.jpg" width="1366" height="600" alt="マシュマロ画像">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--見出し部分 -->
+    <div class="top">
+        <div class="container">
+            <h2>GRAMPING = CAMPING ✖️ GRAMOROUS</h2>
+            <p>気軽にキャンプ体験を楽しむことができ、ホテル並みの快適なサービスを受けられる新しいキャンプスタイル。
+                キャンプ初心者でも気軽に、贅沢で快適なアウトドア体験を楽しめるのが魅力です。</p>
+        </div>
+    </div>
+    <!--三つの魅力リスト -->
+    <div class="miryoku">
+        <div class="container">
+            <h2>EandM ３つの魅力</h2>
+            <ul class="miryoku-list">
+                <li>
+                    <img src="images/room.png" alt="お部屋画像">
+                    <h3>- 海外のような雰囲気 -</h3>
+                    <p>お部屋はゆったりとした大自然を満喫できる空間となっております。こだわりのインテリアとキャンプギアを揃えており、海外リゾートのような雰囲気を味わえます。</p>
+                </li>
+                <li>
+                    <img src="images/bbq.png" alt="食事画像">
+                    <h3>- オールインクルーシブプラン -</h3>
+                    <p>朝昼晩3食とお飲み物まで全てご用意させていただきます。ここでしか味わえない豪華なBBQの食材、美味しい食事をさらに楽しくする種類豊富なドリンクサービスは大好評です。こだわりのメニューをぜひお楽しみください。
+                    </p>
+                </li>
+                <li>
+                    <img src="images/fire.png" alt="焚き火画像">
+                    <h3>- 夜は最高のシチュエーション -</h3>
+                    <p>満天の星空の下で行うキャンプの醍醐味”焚き火”。焚き火でマシュマロを焼いて最高のデザートをどうぞ。都会では絶対に味わえない体験を心ゆくまでお楽しみください。</p>
+                </li>
+            </ul>
+            <a href="#" class="btn">View more</a>
+        </div>
+    </div>
+    <!--movie紹介 -->
+    <div class="movie">
+        <div class="container">
+            <h2>Special Event -October-</h2>
+            <h3>outdoor movie screening at night.</h3>
+            <img src="images/movie.jpg" alt="movie画像">
+            <h3>Movie list …</h3>
+            <p>『バック・トゥ・ザ・フューチャー』(1985年)<br>
+                『ホームアローン』(1990年)<br>
+                『スタンドバイミー』(1986年)<br>
+                『キャスパー』(1995年)
+            </p>
+            <a href="#" class="btn">Movie schedule</a>
+        </div>
+    </div>
+    <!--予約表 -->
+    <div class="form">
+        <div class="container">
+            <h2>reservation</h2>
+            <form action="post.cgi">
+
+                <div class="form-row">
+                    <label for="name" class="name">name</label><br>
+                    <input type="text" id="name" name="yourname" placehoder="キャンプ 太郎">
+                </div>
+                <div class="form-row">
+                    <label for="email" class="email">e-mail</label><br>
+                    <input type="EMAIL" id="email" name="mail" placehoder="example@email.com">
+                </div>
+                <div class="people">
+                    <h3>大人</h3>
+                    <select name="adult" style="width: 45px; height: 24px;" tabindex="4">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <p>名</p><br>
+                    <h3>子供</h3>
+                    <select name="child" style="width: 45px; height: 24px;" tabindex="4">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <p>名</p>
+                </div>
+                <div class="check-in">
+                    <h3>check-in</h3><br>
+                    <select name="year" style="width: 80px; height: 24px;" tabindex="5">
+                        <option value="2022" selected>2022</option>
+                        <option value="2023">2023</option>
+                    </select>
+                    <p>年</p>
+                    <select name="month" style="width: 45px; height: 24px;" tabindex="5">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10" selected>10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <p>月</p>
+                    <select name="day" style="width: 45px; height: 24px;" tabindex="6">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <p>日 〜</p>
+
+                    <select name="day2" style="width: 45px; height: 24px;" tabindex="7">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <p>泊</p>
+                </div>
+                <div class="room">
+                    <h3>room</h3><br>
+                    <input id="tent" type="checkbox" name="tent" value="テント"><label for="tent">tent type</label>
+                    <input id="cotage" type="checkbox" name="cotage" value="コテージ"><label for="cotage">cotage
+                        type</label>
+                    <input id="car" type="checkbox" name="car" value="車"><label for="car">campingcar</label>
+                </div>
+
+                <div class="form-row">
+                    <label for="text" id="request">
+                        request
+                    </label><br>
+                    <textarea name="textarea" id="text" tabindex="7" accesskey="A">リクエスト等ご記入ください</textarea>
+                </div>
+                <button class="submit btn" type="submit" accesskey="A" tabindex="1">confirm</button>
+            </form>
+        </div>
+    </div>
+    <!--フォローミー-->
+    <div class="follow">
+        <div class="container">
+            <h2>Please follow me</h2>
+            <!--フォローミーsp表示用-->
+            <div class="sns-sp">
+                <div class="insta">
+                    <a href="#"><img src="images/instafuu.jpg" alt="インスタ画像"></a>
+                </div>
+                <div class="facebook">
+                    <a href="#"><img src="images/facebookfuu.jpg" alt="facebook画像"></a>
+                </div>
+            </div>
+            <!--フォローミpc表示用-->
+            <div class="sns-pc">
+                <div class="insta">
+                    <a href="#"><img src="images/instafuu.jpg" alt="インスタ画像"></a>
+                </div>
+                <div class="facebook">
+                    <a href="#"><img src="images/facebookfuu.jpg" alt="facebook画像"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--アクセス -->
+    <div class="access">
+        <div class="container">
+            <h2>access</h2>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.1302202693523!2d139.4801316806781!3d35.30274568843565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60184ee47ecbee91%3A0xc2b525d85e71f840!2z44CSMjUxLTAwMzYg56We5aWI5bed55yM6Jek5rKi5biC5rGf44Gu5bO277yR5LiB55uu77yR!5e0!3m2!1sja!2sjp!4v1663507047707!5m2!1sja!2sjp"
+                    width="300" height="200" style="border:0;" title="googlemap">
+                </iframe>
+            </div>
+
+
+            <table style="border-collapse:collapse">
+                <tr class="t1">
+                    <th>tel</th>
+                    <td><a href="tel:123-4567-8910">123-4567-8910</a></td>
+                </tr>
+                <tr class="t2">
+                    <th>address</th>
+                    <td>〒123-4567<br> 神奈川県藤沢市江ノ島XXX-XX-X</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!--フッター -->
+    <footer>
+        <div class="footer-list">
+            <ul>
+                <li><a href="#">reservation</a></li>
+                <li><a href="#">Room</a></li>
+                <li><a href="#">BBQmenu</a></li>
+                <li><a href="#">Access</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+    <small>©︎2022EandM All Rights Reserved.</small>
+
+</body>
+
+
+</html>
